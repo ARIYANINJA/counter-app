@@ -5,7 +5,9 @@ class NavBar extends Component {
             <div>
                <nav className="navbar bg-light">
                 <div className="container-fluid">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <a className="navbar-brand" href="#">Navbar
+                <span className='badge bg-secondary m-2'>{this.props.totalCounters}</span>
+                </a>
                 </div>
                 </nav>
             </div>
